@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.form-container{
+    height: 100vh;
+    width:100vw;
+    background-color: #131324;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+form{
+    background-color: #51518d;
+    border: 0.1rem solid #00000076;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 5rem;
+    border-radius: 2rem;
+    color: white;
+    gap: 0.5rem;
+}
+
+textarea{
+    width: 100%;
+    border: none;
+    border-radius: 0.2rem;   
+    padding: 1rem;
+    
+}
+button{
+    background-color: #997af0;
+    padding: 1rem 2rem;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+    text-transform: uppercase;
+}
+button:hover{
+ background-color: #4e0eff;
+}
+
+@media  (max-width: 500px) {
+    
+   .form-container{
+    height: 100vh;
+    width:100vw;
+    background-color: #131324;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+   }
+    
+    button{
+        background-color: #997af0;
+        padding: 0.25rem 0.5rem;
+        color: white;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 0.2rem;
+        border: none;
+        text-transform: uppercase;
+    }
+    form{
+        background-color: #51518d;
+        border: 0.01rem solid #00000076;
+        display: flex;
+        flex-direction: column;
+        padding: 0.5rem 1rem;
+        border-radius: 0.5rem;
+        color: white;
+        gap: 0.1rem;
+    }  
+}
+@media ( min-width:220px){
+
+   .form-container{
+    height: 100vh;
+    width:100vw;
+    background-color: #131324;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+   }
+    
+    button{
+        background-color: #997af0;
+        padding: 0.25rem 0.5rem;
+        color: white;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 0.2rem;
+        border: none;
+        text-transform: uppercase;
+    }
+    form{
+        background-color: #51518d;
+        border: 0.01rem solid #00000076;
+        display: flex;
+        height: 70%;
+        width: 70%;
+        flex-direction: column;
+        padding: 0.5rem 1rem;
+        border-radius: 0.3rem;
+        color: white;
+        gap: 0.1rem;
+    }
+}
